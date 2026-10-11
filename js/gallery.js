@@ -54,6 +54,7 @@
     const categoryLabel = {
       street: "影像部分",
       portrait: "人像摄影",
+      creative: "创意宣传",
       video: "影像作品",
       photo: "摄影作品",
     }[category] || category;
@@ -96,7 +97,7 @@
   });
 
   const hash = window.location.hash.replace("#", "");
-  if (hash === "street" || hash === "portrait" || hash === "video") {
+  if (hash === "street" || hash === "portrait" || hash === "creative" || hash === "video") {
     applyFilter(hash);
   }
 })();

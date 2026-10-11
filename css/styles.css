@@ -719,6 +719,10 @@ h3 {
   padding-left: clamp(0px, 22vw, 340px);
 }
 
+#creative {
+  scroll-margin-top: 120px;
+}
+
 .project-node::before {
   content: var(--node);
   position: absolute;
