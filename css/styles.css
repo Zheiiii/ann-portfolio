@@ -898,6 +898,11 @@ h3 {
   filter: saturate(0.64) contrast(1.06);
 }
 
+.archive-creative .archive-preview-meta {
+  right: 8%;
+  bottom: 8%;
+}
+
 .archive-stack {
   position: absolute;
   left: 8%;
