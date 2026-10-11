@@ -1,6 +1,6 @@
 # 图片目录
 
-- `photography/`：影像部分（街头、景观等静态摄影）
+- `photography/`：基础摄影类（街头、景观等静态摄影）
 - `portrait/`：人像摄影
 - `creative/`：创意宣传
 - `video-posters/`：视频封面

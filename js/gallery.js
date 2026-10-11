@@ -52,7 +52,7 @@
     const title = item.dataset.title || "archive image";
     const category = item.dataset.category || "photo";
     const categoryLabel = {
-      street: "影像部分",
+      street: "基础摄影类",
       portrait: "人像摄影",
       creative: "创意宣传",
       video: "影像作品",
