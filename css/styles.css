@@ -901,6 +901,8 @@ h3 {
 .archive-creative .archive-preview-meta {
   right: 8%;
   bottom: 8%;
+  color: #25231f;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.7);
 }
 
 .archive-stack {
@@ -950,6 +952,11 @@ h3 {
   font-size: 0.68rem;
   letter-spacing: 0.12em;
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+}
+
+.archive-card.product-card > span {
+  color: #25231f;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.7);
 }
 
 .archive-workbench:hover .archive-card,
@@ -1249,6 +1256,11 @@ h3 {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+}
+
+.masonry-item.product-item > span {
+  color: #25231f;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.7);
 }
 
 .masonry-item:hover,
@@ -1819,6 +1831,19 @@ h3 {
   .archive-card:hover,
   .archive-card:focus-visible {
     transform: translate3d(calc((var(--i) - 1.5) * 12px), -54px, 0) rotate(0deg) scale(1.08) !important;
+  }
+
+  .project-creative {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .project-creative .project-text,
+  .project-creative .archive-workbench {
+    min-width: 0;
+  }
+
+  .project-creative .archive-link {
+    max-width: 100%;
   }
 
   .masonry-grid {
