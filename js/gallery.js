@@ -54,7 +54,7 @@
     const categoryLabel = {
       street: "基础摄影类",
       portrait: "人像摄影",
-      creative: "创意宣传",
+      creative: "商品静物/创意宣传",
       video: "影像作品",
       photo: "摄影作品",
     }[category] || category;
