@@ -905,6 +905,10 @@ h3 {
   text-shadow: 0 1px 8px rgba(255, 255, 255, 0.7);
 }
 
+.archive-creative .archive-preview-img[src*="product-cap-editorial"] {
+  object-position: center top;
+}
+
 .archive-stack {
   position: absolute;
   left: 8%;
