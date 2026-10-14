@@ -909,6 +909,11 @@ h3 {
   object-position: center top;
 }
 
+.archive-creative .archive-preview-img[src*="product-sneaker-editorial"] {
+  object-fit: contain;
+  background: #b9babd;
+}
+
 .archive-stack {
   position: absolute;
   left: 8%;
