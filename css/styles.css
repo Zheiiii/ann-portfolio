@@ -1333,6 +1333,10 @@ h3 {
   grid-column: span 3;
 }
 
+.portrait-feature-item.is-wide-landscape {
+  grid-column: span 4;
+}
+
 .portrait-feature-item:nth-child(even) {
   transform: none;
 }
@@ -1904,13 +1908,15 @@ h3 {
     grid-column: span 1;
   }
 
-  .portrait-feature-item:nth-child(3) {
+  .portrait-feature-item:nth-child(3),
+  .portrait-feature-item:nth-child(4) {
     grid-column: span 2;
     width: calc(50% - 0.4rem);
     justify-self: center;
   }
 
-  .portrait-feature-item.is-landscape {
+  .portrait-feature-item.is-landscape,
+  .portrait-feature-item.is-wide-landscape {
     grid-column: span 2;
   }
 
